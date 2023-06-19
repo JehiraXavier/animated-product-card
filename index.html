@@ -1,60 +1,65 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Animated Product Card</title>
-  <link rel="icon" href="./apple.svg" type="image/icon type">
-  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Mulish:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
-
-</head>
-<body>
-
-<div class="product-card">
-  <div class="logo-cart">
-    <img src="./apple.svg" alt="logo">
-    <i class='bx bx-shopping-bag'></i>
-  </div>
-  <div class="main-images">
-    <img id="black" class="black active" src="./black.jpeg" alt="black">
-    <img id="gold" class="gold" src="./gold.jpeg" alt="gold">
-    <img id="purple" class="purple" src="./purple.jpeg" alt="purple">
-  </div>
-  <div class="shoe-details">
-    <span class="shoe_name">iPhone 14 Pro Max</span>
-    <p>Designed to make a difference!</p>
-    <div class="stars">
-      <i class='bx bxs-star' ></i>
-      <i class='bx bxs-star' ></i>
-      <i class='bx bxs-star' ></i>
-      <i class='bx bxs-star' ></i>
-      <i class='bx bx-star' ></i>
-    </div>
-  </div>
-  <div class="color-price">
-    <div class="color-option">
-      <span class="color">Colour:</span>
-      <div class="circles">
-        <span class="circle black active"  id="black"></span>
-        <span class="circle gold " id="gold"></span>
-        <span class="circle purple " id="purple"></span>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Animated Product Card</title>
+    <link rel="icon" href="./apple.svg" type="image/icon type" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2&family=Mulish:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="product-card">
+      <div class="logo-cart">
+        <img src="./apple.svg" alt="logo" />
+        <i class="bx bx-shopping-bag"></i>
+      </div>
+      <div class="main-images">
+        <img id="black" class="black active" src="./black.jpeg" alt="black" />
+        <img id="gold" class="gold" src="./gold.jpeg" alt="gold" />
+        <img id="purple" class="purple" src="./purple.jpeg" alt="purple" />
+      </div>
+      <div class="shoe-details">
+        <span class="shoe_name">iPhone 14 Pro Max</span>
+        <p>Designed to make a difference!</p>
+        <div class="stars">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bx-star"></i>
+        </div>
+      </div>
+      <div class="color-price">
+        <div class="color-option">
+          <span class="color">Colour:</span>
+          <div class="circles">
+            <span class="circle black active" id="black"></span>
+            <span class="circle gold" id="gold"></span>
+            <span class="circle purple" id="purple"></span>
+          </div>
+        </div>
+        <div class="price">
+          <span class="price_num">$999.00</span>
+          <span class="price_letter"
+            >Nine Hundred and Ninety Nine Dollars Only</span
+          >
+        </div>
+      </div>
+      <div class="button">
+        <div class="button-layer"></div>
+        <button>Add To Cart</button>
       </div>
     </div>
-    <div class="price">
-      <span class="price_num">$999.00</span>
-      <span class="price_letter">Nine Hundred and Ninety Nine Dollars Only</span>
-    </div>
-  </div>
-  <div class="button">
-    <div class="button-layer"></div>
-    <button>Add To Cart</button>
-  </div>
-</div>
 
-  <script  src="./main.js"></script>
-
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>
