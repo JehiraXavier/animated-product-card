@@ -5,8 +5,6 @@
 
 ![Animated product cards](https://res.cloudinary.com/dgm9zfiuo/image/upload/v1698862289/Portfolio%20projects/view_wwq3bf.png)
 
-## Project summary
-
 ### Technologies used
 * HTML
 * CSS
